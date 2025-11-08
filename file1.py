@@ -1,5 +1,5 @@
 import random
-def even_bigger_10(numbers):
+def even_bigger_num10(numbers):
     # result: Список чётных чисел больше 10.
     # ostatok: Список оставшихся чисел.
     result = []
@@ -18,7 +18,7 @@ def sort_results(results_dict):
 # Генерируем список из 20 случайных чисел от 0 до 100 и добавляем их с помощью цикла
 numbers = [random.randint(0, 100) for _ in range(20)]
 print(f"Сгенерированные числа: {numbers}")
-results_dict = even_bigger_10(numbers)
+results_dict = even_bigger_num10(numbers)
 sorted_results = sort_results(results_dict)
 final_result = sorted_results['result']
 final_ostatok = sorted_results['ostatok']
