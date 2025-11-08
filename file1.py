@@ -2,14 +2,15 @@ import random
 def even_bigger_num10(numbers):
     # result: Список чётных чисел больше 10.
     # ostatok: Список оставшихся чисел.
-    result23 = []
+    result11 = []
     ostatok = []
     for num in numbers:
         if num % 2 == 0 and num > 10:
-            result23.append(num)
+            result11.append(num)
         else:
             ostatok.append(num)
-    return {'result': result23, 'ostatok': ostatok}
+    return {'result': result11, 'ostatok': ostatok}
+
 # Функция сортироки
 def sort_results(results_dict):
     for key in results_dict:
