@@ -1,0 +1,16 @@
+# Временные файлы и логи
+*.log
+*.tmp
+temp/
+# Файлы операционной системы
+Thumbs.db # Windows
+# Конфигурация VS Code
+.vscode/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Файлы окружения (API ключи, пароли)
+.env
+.env.local
