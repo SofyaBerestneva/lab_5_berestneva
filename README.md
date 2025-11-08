@@ -26,3 +26,4 @@
 
  ## Автор
 Софья Берестнева Т9-ИП-24-2
+[SofyaBerestneva](https://github.com/SofyaBerestneva)
